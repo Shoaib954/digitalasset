@@ -6,6 +6,24 @@ const dotenv = require('dotenv');
 // Load environment variables
 dotenv.config();
 
+console.log('Starting DigiAsset server...');
+console.log('Node version:', process.version);
+console.log('MONGO_URI exists:', !!process.env.MONGO_URI);
+console.log('JWT_SECRET exists:', !!process.env.JWT_SECRET);
+console.log('PORT:', process.env.PORT);
+
+process.on('uncaughtException', (err) => {
+  console.error('UNCAUGHT EXCEPTION:', err.message);
+  console.error(err.stack);
+  process.exit(1);
+});
+
+process.on('unhandledRejection', (err) => {
+  console.error('UNHANDLED REJECTION:', err.message);
+  console.error(err.stack);
+  process.exit(1);
+});
+
 const connectDB = require('./config/db');
 
 // Import routes
