@@ -6,16 +6,6 @@ const dotenv = require('dotenv');
 // Load environment variables
 dotenv.config();
 
-// Check required env vars
-if (!process.env.MONGO_URI) {
-  console.error('❌ MONGO_URI is not set in environment variables');
-  process.exit(1);
-}
-if (!process.env.JWT_SECRET) {
-  console.error('❌ JWT_SECRET is not set in environment variables');
-  process.exit(1);
-}
-
 const connectDB = require('./config/db');
 
 // Import routes

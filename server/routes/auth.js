@@ -9,7 +9,7 @@ const router = express.Router();
 
 // Generate JWT token
 const generateToken = (id) => {
-  return jwt.sign({ id }, process.env.JWT_SECRET, { expiresIn: '30d' });
+  return jwt.sign({ id }, process.env.JWT_SECRET || 'digiasset_secret_key_2024', { expiresIn: '30d' });
 };
 
 // POST /api/auth/register — Register a new user

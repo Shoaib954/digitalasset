@@ -30,3 +30,9 @@
 📁 API: http://localhost:5000/api
 🏥 Health: http://localhost:5000/api/health
 [31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.js`[39m
+✅ MongoDB Connected: localhost
+🚀 DigiAsset server running on port 5000
+📁 API: http://localhost:5000/api
+🏥 Health: http://localhost:5000/api/health
