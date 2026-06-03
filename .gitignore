@@ -18,8 +18,10 @@ dist-ssr
 
 # Environment variables - NEVER commit these
 .env
-*.env
 server/.env
+
+# Keep .env.production for Vercel
+# .env.production
 
 # Uploads folder (user files)
 server/uploads/
