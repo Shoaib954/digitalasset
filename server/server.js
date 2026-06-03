@@ -6,6 +6,16 @@ const dotenv = require('dotenv');
 // Load environment variables
 dotenv.config();
 
+// Check required env vars
+if (!process.env.MONGO_URI) {
+  console.error('❌ MONGO_URI is not set in environment variables');
+  process.exit(1);
+}
+if (!process.env.JWT_SECRET) {
+  console.error('❌ JWT_SECRET is not set in environment variables');
+  process.exit(1);
+}
+
 const connectDB = require('./config/db');
 
 // Import routes
@@ -25,9 +35,9 @@ const app = express();
 
 // --- Middleware ---
 
-// Enable CORS for frontend dev server
+// Enable CORS
 app.use(cors({
-  origin: ['http://localhost:5173', /^http:\/\/192\.168\./],
+  origin: true,
   credentials: true,
 }));
 
