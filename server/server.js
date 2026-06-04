@@ -1,5 +1,6 @@
 const express = require('express');
 const cors = require('cors');
+const path = require('path');
 const dotenv = require('dotenv');
 
 dotenv.config();
@@ -18,33 +19,26 @@ console.log('PORT:', process.env.PORT);
 console.log('MONGO_URI set:', !!process.env.MONGO_URI);
 
 const app = express();
+
+// Allow all origins — works for localhost, Vercel, mobile
 app.use(cors({ origin: true, credentials: true }));
 app.use(express.json({ limit: '10mb' }));
+app.use(express.urlencoded({ extended: true }));
+app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 
 console.log('Loading connectDB...');
 const connectDB = require('./config/db');
 
-console.log('Loading routes one by one...');
-
-console.log('1. auth');
+console.log('Loading routes...');
 const authRoutes = require('./routes/auth');
-console.log('2. assets');
 const assetRoutes = require('./routes/assets');
-console.log('3. beneficiaries');
 const beneficiaryRoutes = require('./routes/beneficiaries');
-console.log('4. documents');
 const documentRoutes = require('./routes/documents');
-console.log('5. will');
 const willRoutes = require('./routes/will');
-console.log('6. inheritance');
 const inheritanceRoutes = require('./routes/inheritance');
-console.log('7. deadswitch');
 const deadswitchRoutes = require('./routes/deadswitch');
-console.log('8. ai');
 const aiRoutes = require('./routes/ai');
-console.log('9. notifications');
 const notificationRoutes = require('./routes/notifications');
-console.log('10. admin');
 const adminRoutes = require('./routes/admin');
 console.log('All routes loaded!');
 
@@ -78,6 +72,5 @@ connectDB().then(() => {
   });
 }).catch((err) => {
   console.error('MongoDB connection failed:', err.message);
-  console.error('Full error:', err);
   process.exit(1);
 });

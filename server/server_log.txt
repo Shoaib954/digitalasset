@@ -36,3 +36,242 @@
 🚀 DigiAsset server running on port 5000
 📁 API: http://localhost:5000/api
 🏥 Health: http://localhost:5000/api/health
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.js`[39m
+✅ MongoDB Connected: ac-3inzcm4-shard-00-02.tiumiak.mongodb.net
+🚀 DigiAsset server running on port 5000
+📁 API: http://localhost:5000/api
+🏥 Health: http://localhost:5000/api/health
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.js`[39m
+✅ MongoDB Connected: ac-3inzcm4-shard-00-02.tiumiak.mongodb.net
+node:events:496
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+    at listenInCluster (node:net:1996:12)
+    at Server.listen (node:net:2101:7)
+    at Function.listen (c:\Users\mohds\OneDrive\class\digiasset\server\node_modules\express\lib\application.js:635:24)
+    at c:\Users\mohds\OneDrive\class\digiasset\server\server.js:87:7
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1975:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+
+Node.js v22.16.0
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.js`[39m
+✅ MongoDB Connected: ac-3inzcm4-shard-00-01.tiumiak.mongodb.net
+🚀 DigiAsset server running on port 5000
+📁 API: http://localhost:5000/api
+🏥 Health: http://localhost:5000/api/health
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.js`[39m
+✅ MongoDB Connected: ac-3inzcm4-shard-00-00.tiumiak.mongodb.net
+node:events:496
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+    at listenInCluster (node:net:1996:12)
+    at Server.listen (node:net:2101:7)
+    at Function.listen (c:\Users\mohds\OneDrive\class\digiasset\server\node_modules\express\lib\application.js:635:24)
+    at c:\Users\mohds\OneDrive\class\digiasset\server\server.js:87:7
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1975:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+
+Node.js v22.16.0
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.js`[39m
+✅ MongoDB Connected: ac-3inzcm4-shard-00-01.tiumiak.mongodb.net
+🚀 DigiAsset server running on port 5000
+📁 API: http://localhost:5000/api
+🏥 Health: http://localhost:5000/api/health
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.js`[39m
+✅ MongoDB Connected: ac-3inzcm4-shard-00-00.tiumiak.mongodb.net
+🚀 DigiAsset server running on port 5000
+📁 API: http://localhost:5000/api
+🏥 Health: http://localhost:5000/api/health
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.js`[39m
+✅ MongoDB Connected: ac-3inzcm4-shard-00-02.tiumiak.mongodb.net
+node:events:496
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+    at listenInCluster (node:net:1996:12)
+    at Server.listen (node:net:2101:7)
+    at Function.listen (c:\Users\mohds\OneDrive\class\digiasset\server\node_modules\express\lib\application.js:635:24)
+    at c:\Users\mohds\OneDrive\class\digiasset\server\server.js:77:7
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1975:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+
+Node.js v22.16.0
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.js`[39m
+✅ MongoDB Connected: ac-3inzcm4-shard-00-01.tiumiak.mongodb.net
+🚀 DigiAsset server running on port 5000
+🏥 Health: http://localhost:5000/api/health
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.js`[39m
+Starting DigiAsset server...
+Node version: v22.16.0
+MONGO_URI exists: true
+JWT_SECRET exists: true
+PORT: 5000
+✅ MongoDB Connected: ac-3inzcm4-shard-00-02.tiumiak.mongodb.net
+UNCAUGHT EXCEPTION: listen EADDRINUSE: address already in use 0.0.0.0:5000
+Error: listen EADDRINUSE: address already in use 0.0.0.0:5000
+    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+    at listenInCluster (node:net:1996:12)
+    at node:net:2205:7
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.js`[39m
+Starting DigiAsset server...
+Node version: v22.16.0
+MONGO_URI exists: true
+JWT_SECRET exists: true
+PORT: 5000
+✅ MongoDB Connected: ac-3inzcm4-shard-00-02.tiumiak.mongodb.net
+🚀 DigiAsset server running on port 5000
+🏥 Health: http://localhost:5000/api/health
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.js`[39m
+Starting DigiAsset server...
+Node version: v22.16.0
+MONGO_URI exists: true
+JWT_SECRET exists: true
+PORT: 5000
+✅ MongoDB Connected: ac-3inzcm4-shard-00-00.tiumiak.mongodb.net
+UNCAUGHT EXCEPTION: listen EADDRINUSE: address already in use 0.0.0.0:5000
+Error: listen EADDRINUSE: address already in use 0.0.0.0:5000
+    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+    at listenInCluster (node:net:1996:12)
+    at node:net:2205:7
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.js`[39m
+Starting DigiAsset server...
+Node version: v22.16.0
+MONGO_URI exists: true
+JWT_SECRET exists: true
+PORT: 5000
+Loading routes...
+✅ MongoDB Connected: ac-3inzcm4-shard-00-00.tiumiak.mongodb.net
+🚀 DigiAsset server running on port 5000
+🏥 Health: http://localhost:5000/api/health
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.js`[39m
+=== DigiAsset Starting ===
+PORT: 5000
+MONGO_URI set: true
+Loading connectDB...
+Loading routes one by one...
+1. auth
+2. assets
+3. beneficiaries
+4. documents
+5. will
+6. inheritance
+7. deadswitch
+8. ai
+9. notifications
+10. admin
+All routes loaded!
+Connecting to MongoDB...
+✅ MongoDB Connected: ac-3inzcm4-shard-00-02.tiumiak.mongodb.net
+UNCAUGHT EXCEPTION: listen EADDRINUSE: address already in use 0.0.0.0:5000 Error: listen EADDRINUSE: address already in use 0.0.0.0:5000
+    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+    at listenInCluster (node:net:1996:12)
+    at node:net:2205:7
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.js`[39m
+=== DigiAsset Starting ===
+PORT: 5000
+MONGO_URI set: true
+Loading connectDB...
+Loading routes one by one...
+1. auth
+2. assets
+3. beneficiaries
+4. documents
+5. will
+6. inheritance
+7. deadswitch
+8. ai
+9. notifications
+10. admin
+All routes loaded!
+Connecting to MongoDB...
+❌ MongoDB Connection Error: read ECONNRESET
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.js`[39m
+=== DigiAsset Starting ===
+PORT: 5000
+MONGO_URI set: true
+Loading connectDB...
+Loading routes one by one...
+1. auth
+2. assets
+3. beneficiaries
+4. documents
+5. will
+6. inheritance
+7. deadswitch
+8. ai
+9. notifications
+10. admin
+All routes loaded!
+Connecting to MongoDB...
+Connecting to Atlas...
+✅ MongoDB Connected: ac-3inzcm4-shard-00-00.tiumiak.mongodb.net
+MongoDB connected! Starting HTTP server...
+🚀 DigiAsset running on port 5000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.js`[39m
+=== DigiAsset Starting ===
+PORT: 5000
+MONGO_URI set: true
+Loading connectDB...
+Loading routes...
+All routes loaded!
+Connecting to MongoDB...
+Connecting to Atlas...
